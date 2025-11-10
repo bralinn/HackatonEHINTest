@@ -36,21 +36,21 @@ The encounter associated with Linns test.
 * priority.coding.code ^short = "Hastegrad"
 * priority.coding.system ^short = "Hastegrad"
 * priority.coding.display ^short = "Hastegrad
-* serviceType.coding ^slicing.discriminator.type = #value
-* serviceType.coding ^slicing.discriminator.path = "$this"
-* serviceType.coding ^slicing.rules = #open
-* serviceType.coding contains
+* priority.coding ^slicing.discriminator.type = #value
+* priority.coding ^slicing.discriminator.path = "$this"
+* priority.coding ^slicing.rules = #open
+* priority.coding contains
     VOLVEN_8306 0..1 and VOLVEN_9067 0..1
-* serviceType.coding[VOLVEN_8306] from urn:oid:2.16.578.1.12.4.1.1.8655 
-* serviceType.coding[VOLVEN_8306] ^short = "Volven 8655"
-* serviceType.coding[VOLVEN_8306] ^definition = "Helsehjelpsområde (OID=8655)"
-* serviceType.coding[VOLVEN_8306] ^mustSupport = false
-* serviceType.coding[VOLVEN_8306] ^binding.description = "Volven"
-* serviceType.coding[VOLVEN_9067] from urn:oid:2.16.578.1.12.4.1.1.8663 
-* serviceType.coding[VOLVEN_9067] ^short = "Volven 8663"
-* serviceType.coding[VOLVEN_9067] ^definition = "Tjenestetyper for kommunal helse- og omsorgstjeneste mv. (OID=8663)"
-* serviceType.coding[VOLVEN_9067] ^mustSupport = false
-* serviceType.coding[VOLVEN_9067] ^binding.description = "Volven"
+* priority.coding[VOLVEN_8306] from urn:oid:2.16.578.1.12.4.1.1.8655 
+* priority.coding[VOLVEN_8306] ^short = "Volven 8655"
+* priority.coding[VOLVEN_8306] ^definition = "Helsehjelpsområde (OID=8655)"
+* priority.coding[VOLVEN_8306] ^mustSupport = false
+* priority.coding[VOLVEN_8306] ^binding.description = "Volven"
+* priority.coding[VOLVEN_9067] from urn:oid:2.16.578.1.12.4.1.1.8663 
+* priority.coding[VOLVEN_9067] ^short = "Volven 8663"
+* priority.coding[VOLVEN_9067] ^definition = "Tjenestetyper for kommunal helse- og omsorgstjeneste mv. (OID=8663)"
+* priority.coding[VOLVEN_9067] ^mustSupport = false
+* priority.coding[VOLVEN_9067] ^binding.description = "Volven"
 
 
 
