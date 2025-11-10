@@ -1,4 +1,4 @@
-# hl7.fhir.no.LinnTest#0.1.0: LinnTest
+# hl7.fhir.no.LinnTest#0.0.1: LinnTest
 
 ## Pages
 
@@ -11,6 +11,7 @@
 
 * [Blodprøve](StructureDefinition-mal-observation-blodprove.md)
 * [Pasient](StructureDefinition-mal-patient.md)
+* [Linns Test Encounter](StructureDefinition-no-Linn-Encounter.md)
 
 ### ImplementationGuides
 

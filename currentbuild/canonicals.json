@@ -3,21 +3,28 @@
     "id" : "hl7.fhir.no.LinnTest",
     "type" : "ImplementationGuide",
     "url" : "http://hl7.no/fhir/ig/LinnTest/ImplementationGuide/hl7.fhir.no.LinnTest",
-    "version" : "0.1.0",
+    "version" : "0.0.1",
     "name" : "LinnTest"
   },
   {
     "id" : "mal-observation-blodprove",
     "type" : "StructureDefinition",
     "url" : "http://hl7.no/fhir/ig/LinnTest/StructureDefinition/mal-observation-blodprove",
-    "version" : "0.1.0",
+    "version" : "0.0.1",
     "name" : "MalObservationBlood"
   },
   {
     "id" : "mal-patient",
     "type" : "StructureDefinition",
     "url" : "http://hl7.no/fhir/ig/LinnTest/StructureDefinition/mal-patient",
-    "version" : "0.1.0",
+    "version" : "0.0.1",
     "name" : "MalPatient"
+  },
+  {
+    "id" : "no-Linn-Encounter",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.no/fhir/ig/LinnTest/StructureDefinition/no-Linn-Encounter",
+    "version" : "0.0.1",
+    "name" : "LinnsEncounter"
   }
 ]

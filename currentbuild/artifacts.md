@@ -1,4 +1,4 @@
-# Artifacts Summary - LinnTest v0.1.0
+# Artifacts Summary - LinnTest v0.0.1
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**
@@ -14,6 +14,7 @@ These define constraints on FHIR resources for systems conforming to this implem
 | | |
 | :--- | :--- |
 | [Blodprøve](StructureDefinition-mal-observation-blodprove.md) | Profil for vanlige blodprøver |
+| [Linns Test Encounter](StructureDefinition-no-Linn-Encounter.md) | The encounter associated with Linns test. |
 | [Pasient](StructureDefinition-mal-patient.md) | Informasjon om pasienten, basert på no-basis. |
 
 ### Example: Example Instances 
