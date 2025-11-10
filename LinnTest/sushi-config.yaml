@@ -9,8 +9,8 @@ name: LinnTest
 title: "LinnTest"
 description: Implementasjonsguide for å teste ut for eHiN Hackaton
 status: draft
-version: 0.1.0
-fhirVersion: 4.0.1
+version: 0.0.1
+fhirVersion: 6.0.0-ballot3
 copyrightYear: 2025+
 releaseLabel: ci-build
 jurisdiction: urn:iso:std:iso:3166#NO "Norway"
@@ -18,8 +18,7 @@ jurisdiction: urn:iso:std:iso:3166#NO "Norway"
 publisher:
   name: Linn Brandt
   url: https://github.com/bralinn
-dependencies:
-  hl7.fhir.no.basis: 2.2.0
+
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
