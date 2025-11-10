@@ -3,10 +3,10 @@
 # │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 # Oppdater med riktig informasjon
-id: http://hl7.no/fhir/ig/FHIRHackatonEHiN2025Linn
-canonical: http://hl7.no/fhir/ig/FHIRHackatonEHiN2025Linn
-name: FHIRHackatonEHiN2025Linn
-title: "FHIRHackatonEHiN2025Linn"
+id: http://hl7.no/fhir/ig/LinnTest
+canonical: http://hl7.no/fhir/ig/LinnTest
+name: LinnTest
+title: "LinnTest"
 description: Implementasjonsguide for å teste ut for eHiN Hackaton
 status: draft
 version: 0.1.0

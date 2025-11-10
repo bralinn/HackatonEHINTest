@@ -25,7 +25,7 @@ on:
 
 # CONFIGURATION: The "short name" of the IG and the folder must be the same
 env:
-  IG_SHORTNAME: FHIRHackatonEHiN2025Linn
+  IG_SHORTNAME: LinnTest
   # IG: ${{ vars.IG_KORTNAVN }}
 
 jobs:
