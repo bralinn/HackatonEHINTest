@@ -3,7 +3,7 @@
 # │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 # Oppdater med riktig informasjon
-id: http://hl7.no/fhir/ig/LinnTest
+id: hl7.fhir.no.LinnTest
 canonical: http://hl7.no/fhir/ig/LinnTest
 name: LinnTest
 title: "LinnTest"
