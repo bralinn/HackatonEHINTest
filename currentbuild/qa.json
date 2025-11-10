@@ -6,14 +6,14 @@
   "status" : "draft",
   "package-id" : "hl7.fhir.no.LinnTest",
   "ig-ver" : "0.0.1",
-  "date" : "Mon, 10 Nov, 2025 13:37:27 +0000",
-  "dateISO8601" : "2025-11-10T13:37:27+00:00",
-  "errs" : 4,
-  "warnings" : 11,
-  "hints" : 19,
+  "date" : "Mon, 10 Nov, 2025 14:08:13 +0000",
+  "dateISO8601" : "2025-11-10T14:08:13+00:00",
+  "errs" : 6,
+  "warnings" : 12,
+  "hints" : 20,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "6.0.0-ballot3",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 1240465408
+  "maxMemory" : 1117915296
 }

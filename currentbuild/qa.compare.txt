@@ -1,10 +1,11 @@
 LinnTest : Validation Results
 =========================================
 
-err = 4, warn = 11, info = 19
+err = 6, warn = 12, info = 20
 $--
 Generated $--. FHIR version $-- for hl7.fhir.no.LinnTest#$-- (canonical = http://hl7.no/fhir/ig/LinnTest)
  Build Errors : 3 / 3 / 0
+ /__w/HackatonEHINTest/HackatonEHINTest/LinnTest/fsh-generated/resources/CodeSystem-no-kodeverk-8306.codesystem : 2 / 1 / 2
  /__w/HackatonEHINTest/HackatonEHINTest/LinnTest/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.LinnTest : 1 / 1 / 2
  /__w/HackatonEHINTest/HackatonEHINTest/LinnTest/fsh-generated/resources/Patient-Pasient-1 : 0 / 1 / 1
  /__w/HackatonEHINTest/HackatonEHINTest/LinnTest/fsh-generated/resources/StructureDefinition-mal-observation-blodprove : 0 / 2 / 6
@@ -18,6 +19,11 @@ ERROR: ImplementationGuide/hl7.fhir.no.LinnTest: This IG is version 6.0.0-ballot
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-no-kodeverk-8306.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://helsedir.no/fhir/CodeSystem/no-kodeverk-8306'): Conformance resource /__w/HackatonEHINTest/HackatonEHINTest/LinnTest/fsh-generated/resources/CodeSystem-no-kodeverk-8306.codesystem.json - the canonical URL (http://hl7.no/fhir/ig/LinnTest/CodeSystem/no-kodeverk-8306.codesystem) does not match the URL (http://helsedir.no/fhir/CodeSystem/no-kodeverk-8306). Use the special-url parameter if you really mean for it not to match
+INFORMATION: CodeSystem/no-kodeverk-8306.codesystem: CodeSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
+WARNING: CodeSystem/no-kodeverk-8306.codesystem: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+ERROR: /__w/HackatonEHINTest/HackatonEHINTest/LinnTest/fsh-generated/resources/CodeSystem-no-kodeverk-8306.codesystem: URL Mismatch http://hl7.no/fhir/ig/LinnTest/CodeSystem/no-kodeverk-8306.codesystem vs http://helsedir.no/fhir/CodeSystem/no-kodeverk-8306
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.LinnTest.json ==
 INFORMATION: ImplementationGuide/hl7.fhir.no.LinnTest: ImplementationGuide.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
 WARNING: ImplementationGuide/hl7.fhir.no.LinnTest: ImplementationGuide.dependsOn[0]: The ImplementationGuide is based on FHIR version 6.0.0-ballot3 but package hl7.terminology.r5#6.5.0 is based on FHIR version 5.0.0. In general, this version mismatch should be avoided - some tools will try to make this work with variable degrees of success, but others will not even try

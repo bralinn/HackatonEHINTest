@@ -7,6 +7,10 @@
 
 ## Resources
 
+### CodeSystems
+
+* [8306 Hastegrad henvisning](CodeSystem-no-kodeverk-8306.codesystem.md)
+
 ### Resource Profiles
 
 * [Blodprøve](StructureDefinition-mal-observation-blodprove.md)

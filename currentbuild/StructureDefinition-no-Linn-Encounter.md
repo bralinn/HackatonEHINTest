@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-no-Linn-Encounter.cs
   "name" : "LinnsEncounter",
   "title" : "Linns Test Encounter",
   "status" : "draft",
-  "date" : "2025-11-10T13:37:27+00:00",
+  "date" : "2025-11-10T14:08:13+00:00",
   "publisher" : "Linn Brandt",
   "contact" : [
     {

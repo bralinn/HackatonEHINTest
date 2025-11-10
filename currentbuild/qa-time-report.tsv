@@ -1,15 +1,16 @@
 Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.LinnTest.json	2624	-	0	0	0	0	0	0	8	65	0	0	0	0	0	0	0	1	0	0	48	79	0	0	0	1	0	1
-fsh-generated/resources/Patient-Pasient-1.json	1155	11	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	9	13	0	0	0	0	0	0
-fsh-generated/resources/StructureDefinition-mal-observation-blodprove.json	2261	10	0	89	1	0	0	0	0	98	0	0	1	0	0	0	0	2	0	0	265	3415	0	0	0	8	0	0
-fsh-generated/resources/StructureDefinition-mal-patient.json	814	11	0	70	0	0	0	0	0	30	0	0	0	0	0	0	0	1	0	0	167	406	0	0	0	5	0	1
-fsh-generated/resources/StructureDefinition-no-Linn-Encounter.json	699	8	0	53	0	0	0	0	0	27	0	0	0	0	0	0	0	1	0	0	168	556	0	0	0	5	0	1
-/fsh-generated/includes/fsh-link-references.md	221	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.LinnTest.json	2935	-	0	0	0	0	0	0	10	77	0	0	0	0	0	0	0	1	0	0	44	44	0	0	0	1	0	0
+fsh-generated/resources/CodeSystem-no-kodeverk-8306.codesystem.json	1142	14	0	0	0	0	0	0	1	16	0	0	1	0	0	0	0	0	0	0	12	465	0	0	0	0	0	0
+fsh-generated/resources/Patient-Pasient-1.json	1155	14	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	8	13	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-mal-observation-blodprove.json	2261	13	0	95	0	0	0	0	0	105	0	0	0	0	0	0	0	2	0	0	234	3461	0	0	0	11	1	1
+fsh-generated/resources/StructureDefinition-mal-patient.json	814	13	0	68	0	0	0	0	0	38	0	0	0	0	0	0	0	1	0	0	168	411	0	0	0	6	0	0
+fsh-generated/resources/StructureDefinition-no-Linn-Encounter.json	699	12	0	68	0	0	0	0	0	35	0	0	0	0	0	0	0	1	0	0	193	516	0	0	0	7	0	1
+/fsh-generated/includes/fsh-link-references.md	283	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /fsh-generated/includes/menu.xml	1089	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/pagecontent/index.md	1058	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
-/template/config/_config.yml	140	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/template/config/_config.yml	140	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
 /input/images	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/images/test.puml	389	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/images/test.svg	8659	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/temp/pages/_includes/artifacts.xml	2872	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0	0	0	0	0	0	0
+/temp/pages/_includes/artifacts.xml	3695	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0	0	0	0	0	0	0

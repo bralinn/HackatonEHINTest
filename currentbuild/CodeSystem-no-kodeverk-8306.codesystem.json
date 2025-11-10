@@ -1,0 +1,54 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "no-kodeverk-8306.codesystem",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-8306.codesystem</b></p><a name=\"no-kodeverk-8306.codesystem\"> </a><a name=\"hcno-kodeverk-8306.codesystem\"> </a><p>This case-sensitive code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8306</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">0<a name=\"no-kodeverk-8306.codesystem-0\"> </a></td><td>Øyeblikkelig hjelp</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"no-kodeverk-8306.codesystem-3\"> </a></td><td>Haster (elektiv)</td></tr><tr><td style=\"white-space:nowrap\">N<a name=\"no-kodeverk-8306.codesystem-N\"> </a></td><td>Elektiv/Ordinær (elektiv)</td></tr><tr><td style=\"white-space:nowrap\">PK<a name=\"no-kodeverk-8306.codesystem-PK\"> </a></td><td>Pakkeforløp for kreft (elektiv)</td></tr></table></div>"
+  },
+  "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8306",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.578.1.12.4.1.1.8306"
+  }],
+  "version" : "0.0.1",
+  "name" : "NoKodeverk8306",
+  "title" : "8306 Hastegrad henvisning",
+  "status" : "active",
+  "date" : "2018-01-03",
+  "publisher" : "Linn Brandt",
+  "contact" : [{
+    "name" : "Linn Brandt",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/bralinn"
+    }]
+  }],
+  "description" : "Hastegrad for henvisning ifølge Nasjonal veileder for henvisninger til spesialisthelsetjenesten.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "caseSensitive" : true,
+  "compositional" : false,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "0",
+    "display" : "Øyeblikkelig hjelp"
+  },
+  {
+    "code" : "3",
+    "display" : "Haster (elektiv)"
+  },
+  {
+    "code" : "N",
+    "display" : "Elektiv/Ordinær (elektiv)"
+  },
+  {
+    "code" : "PK",
+    "display" : "Pakkeforløp for kreft (elektiv)"
+  }]
+}

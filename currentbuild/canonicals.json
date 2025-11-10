@@ -1,5 +1,13 @@
 [
   {
+    "id" : "no-kodeverk-8306.codesystem",
+    "type" : "CodeSystem",
+    "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8306",
+    "version" : "0.0.1",
+    "name" : "NoKodeverk8306",
+    "oids" : ["2.16.578.1.12.4.1.1.8306"]
+  },
+  {
     "id" : "hl7.fhir.no.LinnTest",
     "type" : "ImplementationGuide",
     "url" : "http://hl7.no/fhir/ig/LinnTest/ImplementationGuide/hl7.fhir.no.LinnTest",

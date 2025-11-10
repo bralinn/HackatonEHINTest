@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "LinnTest"] ; # 
   fhir:title [ fhir:v "LinnTest"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-11-10T13:37:27+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-10T14:08:13+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Linn Brandt"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Linn Brandt" ] ;
@@ -93,6 +93,24 @@
        ]
      ] ) ;
      fhir:resource ( [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://hl7.no/fhir/ig/LinnTest/CodeSystem/no-kodeverk-8306.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-8306.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "8306 Hastegrad henvisning" ] ;
+       fhir:description [ fhir:v "Hastegrad for henvisning ifølge Nasjonal veileder for henvisninger til spesialisthelsetjenesten." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
        fhir:extension ( [
          fhir:url [
            fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;

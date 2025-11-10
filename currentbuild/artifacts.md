@@ -17,6 +17,14 @@ These define constraints on FHIR resources for systems conforming to this implem
 | [Linns Test Encounter](StructureDefinition-no-Linn-Encounter.md) | The encounter associated with Linns test. |
 | [Pasient](StructureDefinition-mal-patient.md) | Informasjon om pasienten, basert på no-basis. |
 
+### Terminology: Code Systems 
+
+These define new code systems used by systems conforming to this implementation guide.
+
+| | |
+| :--- | :--- |
+| [8306 Hastegrad henvisning](CodeSystem-no-kodeverk-8306.codesystem.md) | Hastegrad for henvisning ifølge Nasjonal veileder for henvisninger til spesialisthelsetjenesten. |
+
 ### Example: Example Instances 
 
 These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.

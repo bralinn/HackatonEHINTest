@@ -57,7 +57,7 @@ Eksempel på en figur laget med PlantUML.
   "name" : "LinnTest",
   "title" : "LinnTest",
   "status" : "draft",
-  "date" : "2025-11-10T13:37:27+00:00",
+  "date" : "2025-11-10T14:08:13+00:00",
   "publisher" : "Linn Brandt",
   "contact" : [
     {
@@ -119,6 +119,20 @@ Eksempel på en figur laget med PlantUML.
       }
     ],
     "resource" : [
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
+          "reference" : "CodeSystem/no-kodeverk-8306.codesystem"
+        },
+        "name" : "8306 Hastegrad henvisning",
+        "description" : "Hastegrad for henvisning ifølge Nasjonal veileder for henvisninger til spesialisthelsetjenesten.",
+        "isExample" : false
+      },
       {
         "extension" : [
           {

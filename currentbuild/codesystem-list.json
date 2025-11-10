@@ -1,3 +1,13 @@
 {
-  "codeSystems" : []
+  "codeSystems" : [
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8306",
+      "version" : "0.0.1",
+      "status" : "active",
+      "name" : "NoKodeverk8306",
+      "title" : "8306 Hastegrad henvisning",
+      "description" : "Hastegrad for henvisning ifølge Nasjonal veileder for henvisninger til spesialisthelsetjenesten.",
+      "oids" : ["2.16.578.1.12.4.1.1.8306"]
+    }
+  ]
 }

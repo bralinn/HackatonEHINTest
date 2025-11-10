@@ -26,9 +26,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.21"],
       "uses" : {
       },
+      "StructureDefinition-mal-patient.html" : "Pasient",
       "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve",
-      "StructureDefinition-no-Linn-Encounter.html" : "Linns Test Encounter",
-      "StructureDefinition-mal-patient.html" : "Pasient"
+      "StructureDefinition-no-Linn-Encounter.html" : "Linns Test Encounter"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/body-site",
@@ -378,9 +378,9 @@
       ],
       "uses" : {
       },
+      "StructureDefinition-mal-patient.html" : "Pasient",
       "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve",
-      "StructureDefinition-no-Linn-Encounter.html" : "Linns Test Encounter",
-      "StructureDefinition-mal-patient.html" : "Pasient"
+      "StructureDefinition-no-Linn-Encounter.html" : "Linns Test Encounter"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",

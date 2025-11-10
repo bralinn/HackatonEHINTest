@@ -1,7 +1,7 @@
 {
   "version" : "0.0.1",
   "fhirVersion" : ["6.0.0-ballot3"],
-  "date" : "20251110133727",
+  "date" : "20251110140813",
   "name" : "hl7.fhir.no.LinnTest",
   "jurisdiction" : "urn:iso:std:iso:3166#NO"
 }
