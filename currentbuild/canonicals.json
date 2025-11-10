@@ -1,0 +1,23 @@
+[
+  {
+    "id" : "hl7.fhir.no.LinnTest",
+    "type" : "ImplementationGuide",
+    "url" : "http://hl7.no/fhir/ig/LinnTest/ImplementationGuide/hl7.fhir.no.LinnTest",
+    "version" : "0.1.0",
+    "name" : "LinnTest"
+  },
+  {
+    "id" : "mal-observation-blodprove",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.no/fhir/ig/LinnTest/StructureDefinition/mal-observation-blodprove",
+    "version" : "0.1.0",
+    "name" : "MalObservationBlood"
+  },
+  {
+    "id" : "mal-patient",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.no/fhir/ig/LinnTest/StructureDefinition/mal-patient",
+    "version" : "0.1.0",
+    "name" : "MalPatient"
+  }
+]
